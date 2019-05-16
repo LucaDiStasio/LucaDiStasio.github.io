@@ -1,0 +1,101 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+    
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+body {
+  background: #eee;
+}
+
+/*---- NAVBAR ---- */
+
+.navbar {
+  background: #05325a;
+}
+
+.navbar-brand {
+  color: #FFBD00;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: #637F98;
+}
+
+.nav-link {
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+#nav-link-current {
+  color: #B2B2B2;
+}
+
+.nav-link:hover {
+  color: #637F98;
+}
+
+#navbar-search {
+  font-weight: bold;
+  border-width: medium;
+}
+
+/*---- MAIN CONTENT ---- */
+h1, h2, h3, h4, h5 {
+  text-align: center;
+  color: #05325a;
+  font-weight: bold;
+}
+
+h1 {
+  margin-top: 5%;
+}
+
+h2 {
+  margin-top: 5%;
+}
+
+h3 {
+  margin-top: 2.5%;
+}
+/*---- FOOTER ---- */
+
+.footer {
+  width: 100%;
+  clear: both;
+  position: fixed;
+  bottom: 0;
+  background: #05325a;
+  text-align: center;
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.mt-auto, .my-auto {
+    margin-top: auto!important;
+}
+
+.pb-3, .py-3 {
+    padding-bottom: 1rem!important;
+}
+
+.pt-3, .py-3 {
+    padding-top: 1rem!important;
+}
