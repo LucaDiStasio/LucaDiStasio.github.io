@@ -12,7 +12,7 @@
     font-size: 3.5rem;
   }
 }
-    
+
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
 }
@@ -23,8 +23,8 @@ body {
 
 /*---- NAVBAR ---- */
 
-.navbar {
-  background: #05325a;
+.navbar, .footer {
+  background: #245EBD;
 }
 
 .navbar-brand {
@@ -81,7 +81,6 @@ h3 {
   clear: both;
   position: fixed;
   bottom: 0;
-  background: #05325a;
   text-align: center;
   color: white;
   font-size: x-large;
