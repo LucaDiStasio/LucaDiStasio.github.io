@@ -18,13 +18,13 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 body {
-  background: #eee;
+  background: #E7E7E7;
 }
 
 /*---- NAVBAR ---- */
 
 .navbar, .footer {
-  background: #245EBD;
+  background: #0E5484;
 }
 
 .navbar-brand {
@@ -97,4 +97,29 @@ h3 {
 
 .pt-3, .py-3 {
     padding-top: 1rem!important;
+}
+
+#navbar-social {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+#footer-icon {
+  background: #E7E7E7;
+  /*padding-right: 7.5%;
+  padding-left: 7.5%;
+  border: solid 2.5px black;*/
+  border-radius: 20%;
+  margin: 5%;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+#social-a {
+  color: #0E5484;
+}
+
+#social-a:hover {
+  color: #637F98;
 }
