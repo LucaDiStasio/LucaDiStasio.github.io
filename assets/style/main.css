@@ -19,12 +19,14 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   background: #E7E7E7;
+  font-family: 'Patrick Hand', cursive;
 }
 
 /*---- NAVBAR ---- */
 
 .navbar, .footer, .dropdown-menu {
-  background: #0E5484;
+  /*background: #0E5484;*/
+  background: black;
 }
 
 .navbar-brand {
@@ -62,6 +64,7 @@ h1, h2, h3, h4, h5 {
   text-align: center;
   color: #0E5484;
   font-weight: bold;
+  font-family: 'Caveat', cursive;
 }
 
 
@@ -111,7 +114,8 @@ h1, h2, h3, h4, h5 {
 }
 
 #social-a {
-  color: #0E5484;
+  /*color: #0E5484;*/
+  color: black;
 }
 
 #social-a:hover {
