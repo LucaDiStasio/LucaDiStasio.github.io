@@ -19,7 +19,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   background: #E7E7E7;
-  /*font-family: 'Cagliostro', cursive;*/
+  font-family: 'Roboto Condensed';
 }
 
 /*---- NAVBAR ---- */
@@ -31,7 +31,7 @@ body {
 
 .navbar-brand {
   color: #E7E7E7;
-  font-family: 'Robot Condensed';
+  font-family: 'Caveat', cursive;
   font-size: xx-large;
   font-weight: bold;
 }
