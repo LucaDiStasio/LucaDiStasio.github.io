@@ -78,11 +78,11 @@ h1, h2 {
 }
 
 .cv-title{
-  color:black;
+  color:#000000;
 }
 
 .cv-title:hover{
-  color: white;
+  color: #ffffff;
   background: #637F98;
 }
 
