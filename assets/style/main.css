@@ -62,8 +62,11 @@ body {
 /*---- MAIN CONTENT ---- */
 h1, h2, h3, h4, h5 {
   text-align: center;
-  color: #0E5484;
   font-weight: bold;
+}
+
+h1, h2 {
+  color: #0E5484;
   font-family: 'Caveat', cursive;
 }
 
