@@ -67,13 +67,22 @@ h1, h2, h3, h4, h5 {
   font-family: 'Caveat', cursive;
 }
 
-
 .img-fluid {
   margin-top: 5%;
   margin-bottom: 5%;
   width: 100%;
   height: auto;
 }
+
+.cv-title{
+  color:black;
+}
+
+.cv-title:hover{
+  color: white;
+  background: #637F98;
+}
+
 /*---- FOOTER ---- */
 
 .footer {
