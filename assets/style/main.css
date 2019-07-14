@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1, h2 {
+  text-align: center;
   color: #0E5484;
   font-family: 'Caveat', cursive;
 }
@@ -93,13 +94,43 @@ h3 {
 .nav-tabs{
   /*margin-left: 15%;
   margin-right: 15%;*/
+  margin-top: 5%;
   margin-bottom: 2.5%;
 }
 
 dt {
   font-weight: normal;
-  font-size: 100%;
 }
+
+.p-time{
+  font-size: 110%;
+}
+
+.p-jobtitle{
+  font-size: 110%;
+}
+
+.p-jobtitle{
+  font-weight: bold;
+}
+
+.p-place{
+  font-style: italic;
+}
+
+.p-projects{
+  font-size: 90%;
+}
+
+.p-language{
+  font-size: 90%;
+}
+
+.p-projectstitle, .p-languagetitle{
+  font-style: italic;
+}
+
+
 
 /*---- FOOTER ---- */
 
