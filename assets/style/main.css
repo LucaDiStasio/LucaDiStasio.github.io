@@ -22,6 +22,14 @@ body {
   font-family: 'Roboto Condensed';
 }
 
+a{
+  color: black;
+}
+
+a:hover{
+  color: black;
+}
+
 /*---- NAVBAR ---- */
 
 .navbar, .footer, .dropdown-menu {
@@ -104,26 +112,26 @@ dt {
 
 .p-time{
   font-size: 110%;
+  color:black;
 }
 
 .p-jobtitle{
   font-size: 110%;
-}
-
-.p-jobtitle{
+  color:black;
   font-weight: bold;
 }
 
 .p-place{
+  color:black;
   font-style: italic;
 }
 
 .p-projects{
-  font-size: 90%;
+  font-size: 95%;
 }
 
 .p-language{
-  font-size: 90%;
+  font-size: 95%;
 }
 
 .p-projectstitle, .p-languagetitle{
