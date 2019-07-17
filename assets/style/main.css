@@ -161,6 +161,12 @@ dt {
   font-weight: bold;
 }
 
+@media screen and (min-height: 900px) {
+  #footer-switch {
+    position: fixed;
+  }
+}
+
 .mt-auto, .my-auto {
     margin-top: auto!important;
 }
