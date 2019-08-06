@@ -161,7 +161,7 @@ dt {
   font-weight: bold;
 }
 
-@media screen and (min-height: 900px) {
+@media screen and (min-height: 1000px) {
   #footer-switch {
     position: fixed;
   }
