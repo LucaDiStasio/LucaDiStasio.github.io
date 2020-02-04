@@ -33,6 +33,12 @@
   <script src="../assets/libraries/popper.min.js"></script>
   <script src="../assets/libraries/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
+  <script>
+    $(function(){
+      $("#aboutSummary").load("aboutSummary.html");
+    });
+    </script>
+
   <!-- Custom CSS -->
   <link rel="stylesheet" href="../assets/style/main.css">
 
@@ -100,11 +106,7 @@
 
   <!-- Begin page content -->
   <main role="main" class="flex-shrink-0">
-    <div class="container" style="text-align:justify;margin-top:2%;margin-bottom:2%;width:70%;">
-      <p>Early Stage Researcher at Lule&aring; University of Technology (Lule&aring;, Sweden) and Professional Engineer (Italian License, 2013), I love to read, write, code and solve problems. I also love to teach and help others learn and succeed.<br>
-I hold a M.Sc. in Space Engineering from Politecnico di Milano (110/110, 2013); a M.Sc. in Mechanical Engineering from Drexel University (4/4, 2012); a B.Sc. in Aerospace Engineering (110/110, 2010).
-I gained experience in Research and Development working at Drexel University, IMDEA Materials Institute and ETH Zürich.<br>I am currently pursuing a PhD in Materials Science and Engineering in co-mentorship between Université de Lorraine (France) and Luleå tekniska universitet (Sweden).</p>
-    </div>
+    <div class="container" id="aboutSummary" style="text-align:justify;margin-top:2%;margin-bottom:2%;width:70%;"></div>
     <div class="container" style="width:70%;">
       <ul class="nav nav-tabs">
         <li class="nav-item">
