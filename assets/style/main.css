@@ -68,7 +68,7 @@ a:hover{
 }
 
 .fa-bars:hover {
-  color: #637F98;
+  color: #637F98 !important;
 }
 
 /*---- MAIN CONTENT ---- */
