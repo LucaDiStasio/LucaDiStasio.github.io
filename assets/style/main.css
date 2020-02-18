@@ -67,15 +67,6 @@ a:hover{
   border-width: medium;
 }
 
-.fa-bars {
-  color: white;
-  font-size:28px;
-}
-
-.fa-bars:hover {
-  color: #637F98;
-}
-
 /*---- MAIN CONTENT ---- */
 h1, h2, h3, h4, h5 {
   font-weight: bold;
